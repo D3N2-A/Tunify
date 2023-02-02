@@ -35,7 +35,12 @@ const Sidebar: React.FC = () => {
         </svg>
         Search
       </div>
-      <div className="sidebar-playlist">Playlist Section</div>
+      <div className="sidebar-playlist">
+        <div className="sidebar-playlist-card">
+          <span>Create Playlist</span>
+        </div>
+        <div className="sidebar-playlist-card">Favourite Songs</div>
+      </div>
     </div>
   );
 };
